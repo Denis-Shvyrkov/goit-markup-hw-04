@@ -112,6 +112,21 @@ address {
   padding: 24px 0;
 }
 
+.header-navigation-link.active {
+  color: #404bbf;
+}
+
+.header-navigation-link.active::after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #404bbf;
+  opacity: 1;
+  top: 69px;
+}
+
 .header-navigation-link::after {
   position: absolute;
   content: '';
