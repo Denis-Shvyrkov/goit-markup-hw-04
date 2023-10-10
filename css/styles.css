@@ -187,7 +187,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-background.png);
+    url(../images/hero-background.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -400,7 +400,7 @@ address {
   overflow: hidden;
 }
 
-.portfolio-cover {
+.portfolio-cover-text {
   background-color: #4d5ae5;
   position: absolute;
   height: 100%;
@@ -458,8 +458,8 @@ address {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item-link:hover .portfolio-cover,
-.portfolio-item-link:focus .portfolio-cover {
+.portfolio-item-link:hover .portfolio-cover-text,
+.portfolio-item-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 
